@@ -1,6 +1,6 @@
-+++ 
-draft = true
-date = {{ .Date }}
-title = ""
-slug = "" 
-+++
+---
+draft: true
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+slug: ""
+---
